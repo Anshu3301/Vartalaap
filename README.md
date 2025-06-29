@@ -22,9 +22,22 @@ Great for:
 
 ## Setup
 1. Clone the repo.
+   
 2. Install Ollama (https://ollama.com/) on your machine and pull model: `ollama pull gemma2:2b`
    or any other model you wanna use.
-3. Open terminal and go to specific folder,then run: `pip install ffmpeg torch whisper pyttsx3 SpeechRecognition langchain langchain_ollama`
+   
+3. Open terminal and go to specific folder,then run: `pip install -r requirements.txt`
+
 4. Run the file(chatbot.py)
+
+---
+
+## Example output
+```bash
+Welcome to the world of OLLAMA 🙏
+You: What are the symptoms of flu?
+Ollama: The flu often causes sudden fever, chills, sore throat, and body aches. Rest, fluids, and over-the-counter meds can help.
+
+```
 
 
