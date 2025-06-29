@@ -1,0 +1,7 @@
+ffmpeg
+torch
+whisper
+pyttsx3
+SpeechRecognition
+langchain
+langchain_ollama
